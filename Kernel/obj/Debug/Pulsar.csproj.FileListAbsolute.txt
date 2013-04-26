@@ -1,0 +1,64 @@
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Pulsar.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Pulsar.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Core.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Hardware.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.System.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Common.Extensions.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Core.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Hardware.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.System.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Common.Extensions.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\obj\Debug\Pulsar.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\obj\Debug\Pulsar.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Core.Plugs.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Debug.Kernel.Plugs.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.System.Plugs.System.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Core.Plugs.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.Debug.Kernel.Plugs.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\bin\Debug\Cosmos.System.Plugs.System.pdb
+C:\Pulsar\bin\Debug\Pulsar.dll
+C:\Pulsar\bin\Debug\Pulsar.pdb
+C:\Pulsar\bin\Debug\Cosmos.Common.Extensions.dll
+C:\Pulsar\bin\Debug\Cosmos.Core.dll
+C:\Pulsar\bin\Debug\Cosmos.Core.Plugs.dll
+C:\Pulsar\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\Pulsar\bin\Debug\Cosmos.Debug.Kernel.Plugs.dll
+C:\Pulsar\bin\Debug\Cosmos.Hardware.dll
+C:\Pulsar\bin\Debug\Cosmos.System.dll
+C:\Pulsar\bin\Debug\Cosmos.System.Plugs.System.dll
+C:\Pulsar\bin\Debug\Cosmos.Common.Extensions.pdb
+C:\Pulsar\bin\Debug\Cosmos.Core.Plugs.pdb
+C:\Pulsar\bin\Debug\Cosmos.Debug.Kernel.Plugs.pdb
+C:\Pulsar\bin\Debug\Cosmos.System.Plugs.System.pdb
+C:\Pulsar\bin\Debug\Cosmos.Core.pdb
+C:\Pulsar\bin\Debug\Cosmos.Hardware.pdb
+C:\Pulsar\bin\Debug\Cosmos.System.pdb
+C:\Pulsar\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\Pulsar\obj\Debug\ResolveAssemblyReference.cache
+C:\Pulsar\obj\Debug\Pulsar.dll
+C:\Pulsar\obj\Debug\Pulsar.pdb
+C:\Pulsar\bin\Debug\Pulsar.Plugs.pdb
+C:\Projects\Pulsar\Kernel\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Pulsar\Kernel\obj\Debug\Pulsar.dll
+C:\Projects\Pulsar\Kernel\obj\Debug\Pulsar.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Pulsar.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Pulsar.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Common.Extensions.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Core.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Core.Plugs.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Debug.Kernel.Plugs.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Hardware.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.System.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.System.Plugs.System.dll
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Common.Extensions.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Core.Plugs.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Debug.Kernel.Plugs.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.System.Plugs.System.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Core.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Hardware.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.System.pdb
+C:\Projects\Pulsar\Kernel\bin\Debug\Cosmos.Debug.Kernel.pdb

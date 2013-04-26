@@ -1,0 +1,5 @@
+C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\bin\Debug\Pulsar.Plug.Stream.dll
+C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\bin\Debug\Pulsar.Plug.Stream.pdb
+C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\obj\Debug\ResolveAssemblyReference.cache
+C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\obj\Debug\Pulsar.Plug.Stream.dll
+C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\obj\Debug\Pulsar.Plug.Stream.pdb

@@ -1,0 +1,5 @@
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar_Stream\bin\Debug\Pulsar_Stream.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar_Stream\bin\Debug\Pulsar_Stream.pdb
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar_Stream\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar_Stream\obj\Debug\Pulsar_Stream.dll
+C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar_Stream\obj\Debug\Pulsar_Stream.pdb
