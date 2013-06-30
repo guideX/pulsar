@@ -1,0 +1,1 @@
+C:\dev\pulsar\Boot\obj\Debug\PulsarBoot.CosmosResolveAssemblyReference.cache

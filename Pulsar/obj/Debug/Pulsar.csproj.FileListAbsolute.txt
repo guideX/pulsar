@@ -1,0 +1,14 @@
+C:\dev\pulsar\Pulsar\bin\Debug\Pulsar.dll
+C:\dev\pulsar\Pulsar\bin\Debug\Pulsar.pdb
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Core.dll
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Hardware.dll
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.System.dll
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Common.Extensions.dll
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Core.pdb
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Hardware.pdb
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.System.pdb
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Common.Extensions.pdb
+C:\dev\pulsar\Pulsar\obj\Debug\Pulsar.dll
+C:\dev\pulsar\Pulsar\obj\Debug\Pulsar.pdb

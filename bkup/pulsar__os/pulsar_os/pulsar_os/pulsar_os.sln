@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pulsar_os", "pulsar_os\pulsar_os.csproj", "{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}"
+EndProject
+Project("{471EC4BB-E47E-4229-A789-D1F5F83B52D4}") = "pulsar_osBoot", "..\..\..\Users\giuideX\AppData\Local\Temporary Projects\pulsar_os\pulsar_osBoot.Cosmos", "{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF} = {21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{21B532CD-DFAD-4D2D-8BD5-A7A03EEF94FF}.Release|x86.Build.0 = Release|Any CPU
+		{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}.Debug|Any CPU.Build.0 = Debug|x86
+		{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}.Debug|x86.ActiveCfg = Debug|x86
+		{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}.Debug|x86.Build.0 = Debug|x86
+		{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}.Release|Any CPU.ActiveCfg = Release|x86
+		{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}.Release|Any CPU.Build.0 = Release|x86
+		{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}.Release|x86.ActiveCfg = Release|x86
+		{B7AEFE6E-55B7-4AE8-9A65-84EF18164DC9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

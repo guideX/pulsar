@@ -1,0 +1,15 @@
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\pulsar_os.dll
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\pulsar_os.pdb
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.Core.dll
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.Hardware.dll
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.System.dll
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.Common.Extensions.dll
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.Core.pdb
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.Hardware.pdb
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.System.pdb
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\dev\pulsar_os\pulsar_os\pulsar_os\bin\Debug\Cosmos.Common.Extensions.pdb
+C:\dev\pulsar_os\pulsar_os\pulsar_os\obj\Debug\pulsar_os.csprojResolveAssemblyReference.cache
+C:\dev\pulsar_os\pulsar_os\pulsar_os\obj\Debug\pulsar_os.dll
+C:\dev\pulsar_os\pulsar_os\pulsar_os\obj\Debug\pulsar_os.pdb
