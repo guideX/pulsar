@@ -1,5 +1,0 @@
-C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\bin\Release\Pulsar.Plug.Stream.dll
-C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\bin\Release\Pulsar.Plug.Stream.pdb
-C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\obj\Release\ResolveAssemblyReference.cache
-C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\obj\Release\Pulsar.Plug.Stream.dll
-C:\Pulsar.Plug.Stream\Pulsar.Plug.Stream\obj\Release\Pulsar.Plug.Stream.pdb

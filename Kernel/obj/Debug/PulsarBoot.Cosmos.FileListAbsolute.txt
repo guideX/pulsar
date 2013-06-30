@@ -1,3 +1,0 @@
-C:\Users\guideX\AppData\Local\Temporary Projects\Pulsar\obj\Debug\ResolveAssemblyReference.cache
-C:\Pulsar\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\Pulsar\Kernel\obj\Debug\ResolveAssemblyReference.cache

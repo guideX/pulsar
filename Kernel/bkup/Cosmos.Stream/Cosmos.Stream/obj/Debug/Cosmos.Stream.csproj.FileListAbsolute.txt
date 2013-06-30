@@ -1,5 +1,0 @@
-C:\Users\guideX\AppData\Local\Temporary Projects\Cosmos.Stream\bin\Debug\Cosmos.Stream.dll
-C:\Users\guideX\AppData\Local\Temporary Projects\Cosmos.Stream\bin\Debug\Cosmos.Stream.pdb
-C:\Users\guideX\AppData\Local\Temporary Projects\Cosmos.Stream\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\guideX\AppData\Local\Temporary Projects\Cosmos.Stream\obj\Debug\Cosmos.Stream.dll
-C:\Users\guideX\AppData\Local\Temporary Projects\Cosmos.Stream\obj\Debug\Cosmos.Stream.pdb
