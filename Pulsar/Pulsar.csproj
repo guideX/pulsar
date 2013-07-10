@@ -39,39 +39,6 @@
     <Reference Include="Cosmos.Debug.Kernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Libraries\System.IO\BinaryReader.cs" />
-    <Compile Include="Libraries\System.IO\BinaryWriter.cs" />
-    <Compile Include="Libraries\System.IO\BufferedStream.cs" />
-    <Compile Include="Libraries\System.IO\Directory.cs" />
-    <Compile Include="Libraries\System.IO\DirectoryInfo.cs" />
-    <Compile Include="Libraries\System.IO\DirectoryNotFoundException.cs" />
-    <Compile Include="Libraries\System.IO\EndOfStreamException.cs" />
-    <Compile Include="Libraries\System.IO\File.cs" />
-    <Compile Include="Libraries\System.IO\FileAccess.cs" />
-    <Compile Include="Libraries\System.IO\FileAttributes.cs" />
-    <Compile Include="Libraries\System.IO\FileInfo.cs" />
-    <Compile Include="Libraries\System.IO\FileLoadException.cs" />
-    <Compile Include="Libraries\System.IO\FileMode.cs" />
-    <Compile Include="Libraries\System.IO\FileNotFoundException.cs" />
-    <Compile Include="Libraries\System.IO\FileShare.cs" />
-    <Compile Include="Libraries\System.IO\FileStream.cs" />
-    <Compile Include="Libraries\System.IO\FileSystemInfo.cs" />
-    <Compile Include="Libraries\System.IO\IOException.cs" />
-    <Compile Include="Libraries\System.IO\MemoryStream.cs" />
-    <Compile Include="Libraries\System.IO\Native.cs" />
-    <Compile Include="Libraries\System.IO\Path.cs" />
-    <Compile Include="Libraries\System.IO\PathTooLongException.cs" />
-    <Compile Include="Libraries\System.IO\SeekOrigin.cs" />
-    <Compile Include="Libraries\System.IO\Stream.cs" />
-    <Compile Include="Libraries\System.IO\StreamReader.cs" />
-    <Compile Include="Libraries\System.IO\StreamWriter.cs" />
-    <Compile Include="Libraries\System.IO\StringReader.cs" />
-    <Compile Include="Libraries\System.IO\StringWriter.cs" />
-    <Compile Include="Libraries\System.IO\TextReader.cs" />
-    <Compile Include="Libraries\System.IO\TextWriter.cs" />
-    <Compile Include="Libraries\System.IO\__ConsoleTextWriter.cs" />
-    <Compile Include="Libraries\System.IO\__DebugOutputTextWriter.cs" />
-    <Compile Include="Libraries\System.IO\__Error.cs" />
     <Compile Include="Security\Account.cs" />
     <Compile Include="Commands\Command.cs" />
     <Compile Include="Commands\CommandManager.cs" />
@@ -115,9 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Executables\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Libraries\System.IO\System.IO.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

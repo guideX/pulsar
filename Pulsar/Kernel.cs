@@ -6,6 +6,7 @@ using Pulsar.Environment;
 using Pulsar.FileSystem.Physical.Drivers;
 using Pulsar.Commands;
 using Pulsar.FileSystem.PulsarFileSystem;
+using Cosmos.Hardware;
 namespace Pulsar {
     public class Kernel : Sys.Kernel {
         protected override void BeforeRun() {
@@ -30,7 +31,6 @@ namespace Pulsar {
                 this.Stop();
             }
         }
-
         protected override void Run() {
             while(true) {
                 Login();

@@ -162,7 +162,6 @@ namespace Pulsar {
                 if(nf == null) {
                     throw new Exception("Could not create!");
                 }
-
             } else {
                 throw new ArgumentException("Bad directory");
             }

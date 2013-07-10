@@ -12,3 +12,4 @@ C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Debug.Kernel.pdb
 C:\dev\pulsar\Pulsar\bin\Debug\Cosmos.Common.Extensions.pdb
 C:\dev\pulsar\Pulsar\obj\Debug\Pulsar.dll
 C:\dev\pulsar\Pulsar\obj\Debug\Pulsar.pdb
+c:\dev\Pulsar\Pulsar\obj\Debug\Pulsar.csprojResolveAssemblyReference.cache
