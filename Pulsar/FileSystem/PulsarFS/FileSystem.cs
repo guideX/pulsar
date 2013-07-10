@@ -55,9 +55,9 @@ namespace Pulsar.FileSystem.FileSystem {
                 return part;
             }
         }
-        public NoobDirectory Root {
+        public PulsarDirectory Root {
             get {
-                return new NoobDirectory(part, 1, separator);
+                return new PulsarDirectory(part, 1, separator);
             }
         }
         public ulong BlockSize {

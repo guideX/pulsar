@@ -1,21 +1,4 @@
-﻿/* BinaryLoader.cs - Loads raw binaries.
- * Copyright (C) 2012-2013 Pulsar
- *
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License
- * as published by the Free Software Foundation; either version 2
- * of the License, or (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- */
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,7 +36,7 @@ namespace Pulsar.Executables
             {
                 public override void AssembleNew(object aAssembler, object aMethodInfo)
                 {
-                    new CPUAll.Comment("NoobBinaryLoader. (C) Pulsar 2013. Licensed under the GNU GPL where applicable.");
+                    new CPUAll.Comment("Pulsar");
                     new CPUx86.Mov { SourceReg = CPUx86.Registers.EBP, SourceDisplacement = 8, SourceIsIndirect = true, DestinationReg = CPUx86.Registers.EAX };
                     new CPUx86.Call { DestinationReg = CPUx86.Registers.EAX };
                 }

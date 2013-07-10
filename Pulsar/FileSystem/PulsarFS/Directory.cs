@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using Cosmos.Hardware.BlockDevice;
 namespace Pulsar.FileSystem.FileSystem {
-    class NoobDirectory : Entry {
+    class PulsarDirectory : Entry {
         public String FullName {
             get {
                 return FileSystem.CombineDir(_Path, Name);
             }
         }
-        public NoobDirectory(Partition p, ulong bn, String pa) {
+        public PulsarDirectory(Partition p, ulong bn, String pa) {
             _Path = pa;
             part = p;
             _StartBlock = FSBlock .Read(p, bn);
@@ -33,9 +33,9 @@ namespace Pulsar.FileSystem.FileSystem {
                 CreateEntry(part, _StartBlock, n);
             }
         }
-        public NoobDirectory[] GetDirs() {
+        public PulsarDirectory[] GetDirs() {
             FSBlock curb = _StartBlock;
-            List<NoobDirectory> d = new List<NoobDirectory>();
+            List<PulsarDirectory> d = new List<PulsarDirectory>();
             while(curb.NextBlock != 0) {
                 int index = 0;
                 curb = FSBlock .Read(_StartBlock.Partition, _StartBlock.NextBlock);
@@ -45,7 +45,7 @@ namespace Pulsar.FileSystem.FileSystem {
                     uint sep = BitConverter.ToUInt32(curb.Content, index);
                     index += 4;
                     if(sep == 1) {
-                        d.Add(new NoobDirectory(part, a, FileSystem.CombineDir(_Path, Name)));
+                        d.Add(new PulsarDirectory(part, a, FileSystem.CombineDir(_Path, Name)));
                     }
                 }
             }
@@ -81,7 +81,7 @@ namespace Pulsar.FileSystem.FileSystem {
                     uint sep = BitConverter.ToUInt32(curb.Content, index);
                     index += 4;
                     if(sep == 1) {
-                        d.Add(new NoobDirectory(part, a, FileSystem.CombineDir(_Path, Name)));
+                        d.Add(new PulsarDirectory(part, a, FileSystem.CombineDir(_Path, Name)));
                     } else if(sep == 2) {
                         d.Add(new File(part, a, FileSystem.CombineDir(_Path, Name)));
                     }
@@ -127,11 +127,11 @@ namespace Pulsar.FileSystem.FileSystem {
         }
 
         /// <summary>
-        /// Permits to remove a NoobDirectory by passing it's name
+        /// Permits to remove a PulsarDirectory by passing it's name
         /// </summary>
-        /// <param name="Name">The NoobDirectory's name to remove</param>
+        /// <param name="Name">The PulsarDirectory's name to remove</param>
         public void RemoveDirectory(String Name) {
-            NoobDirectory[] dirs = GetDirs();
+            PulsarDirectory[] dirs = GetDirs();
             bool found = false;
             int index = 0;
             for(int i = 0; i < dirs.Length; i++) {
@@ -145,17 +145,17 @@ namespace Pulsar.FileSystem.FileSystem {
                 RemoveDirectory(dirs[index]);
             }
         }
-        private void RemoveDirectory(NoobDirectory noobDirectory) {
-            NoobDirectory[] subdirs = noobDirectory.GetDirs();
+        private void RemoveDirectory(PulsarDirectory PulsarDirectory) {
+            PulsarDirectory[] subdirs = PulsarDirectory.GetDirs();
             for(int i = 0; i < subdirs.Length; i++) {
-                noobDirectory.RemoveDirectory(subdirs[i]);
+                PulsarDirectory.RemoveDirectory(subdirs[i]);
             }
-            File[] subfiles = noobDirectory.GetFiles();
+            File[] subfiles = PulsarDirectory.GetFiles();
             for(int i = 0; i < subdirs.Length; i++) {
-                noobDirectory.RemoveFile(subfiles[i].Name);
+                PulsarDirectory.RemoveFile(subfiles[i].Name);
             }
-            FileSystem.ClearBlocks(noobDirectory.StartBlock);
-            DeleteBlock(noobDirectory.StartBlock);
+            FileSystem.ClearBlocks(PulsarDirectory.StartBlock);
+            DeleteBlock(PulsarDirectory.StartBlock);
         }
 
         /// <summary>
@@ -240,8 +240,8 @@ namespace Pulsar.FileSystem.FileSystem {
             }
             return ret;
         }
-        public static NoobDirectory GetDirectoryByFullName(String fn) {
-            NoobDirectory d = FileSystem.mFS.Root;
+        public static PulsarDirectory GetDirectoryByFullName(String fn) {
+            PulsarDirectory d = FileSystem.mFS.Root;
             if(fn == d.Name) {
                 return d;
             }
@@ -262,8 +262,8 @@ namespace Pulsar.FileSystem.FileSystem {
             }
             return d;
         }
-        public NoobDirectory GetDirectoryByName(String n) {
-            NoobDirectory[] dirs = GetDirs();
+        public PulsarDirectory GetDirectoryByName(String n) {
+            PulsarDirectory[] dirs = GetDirs();
             for(int i = 0; i < dirs.Length; i++) {
                 if(dirs[i].Name == n) {
                     return dirs[i];
@@ -275,7 +275,7 @@ namespace Pulsar.FileSystem.FileSystem {
             return this.Name;
         }
         public static File GetFileByFullName(String fn) {
-            NoobDirectory d = new NoobDirectory(FileSystem.mFS.Partition, 1, FileSystem.separator);
+            PulsarDirectory d = new PulsarDirectory(FileSystem.mFS.Partition, 1, FileSystem.separator);
             if(fn == null || fn == "") {
                 return null;
             }
